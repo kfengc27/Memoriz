@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CE2E088B2E7ED87E00B9FDEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E08732E7ED87D00B9FDEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2E087A2E7ED87D00B9FDEE;
+			remoteInfo = Memoriz;
+		};
+		CE2E08952E7ED87E00B9FDEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E08732E7ED87D00B9FDEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2E087A2E7ED87D00B9FDEE;
+			remoteInfo = Memoriz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2E087B2E7ED87D00B9FDEE /* Memoriz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memoriz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2E088A2E7ED87E00B9FDEE /* MemorizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2E08942E7ED87E00B9FDEE /* MemorizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CE2E087D2E7ED87D00B9FDEE /* Memoriz */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Memoriz;
+			sourceTree = "<group>";
+		};
+		CE2E088D2E7ED87E00B9FDEE /* MemorizTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MemorizTests;
+			sourceTree = "<group>";
+		};
+		CE2E08972E7ED87E00B9FDEE /* MemorizUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MemorizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2E08782E7ED87D00B9FDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E08872E7ED87E00B9FDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E08912E7ED87E00B9FDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2E08722E7ED87D00B9FDEE = {
+			isa = PBXGroup;
+			children = (
+				CE2E087D2E7ED87D00B9FDEE /* Memoriz */,
+				CE2E088D2E7ED87E00B9FDEE /* MemorizTests */,
+				CE2E08972E7ED87E00B9FDEE /* MemorizUITests */,
+				CE2E087C2E7ED87D00B9FDEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2E087C2E7ED87D00B9FDEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E087B2E7ED87D00B9FDEE /* Memoriz.app */,
+				CE2E088A2E7ED87E00B9FDEE /* MemorizTests.xctest */,
+				CE2E08942E7ED87E00B9FDEE /* MemorizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2E087A2E7ED87D00B9FDEE /* Memoriz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2E089E2E7ED87E00B9FDEE /* Build configuration list for PBXNativeTarget "Memoriz" */;
+			buildPhases = (
+				CE2E08772E7ED87D00B9FDEE /* Sources */,
+				CE2E08782E7ED87D00B9FDEE /* Frameworks */,
+				CE2E08792E7ED87D00B9FDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CE2E087D2E7ED87D00B9FDEE /* Memoriz */,
+			);
+			name = Memoriz;
+			packageProductDependencies = (
+			);
+			productName = Memoriz;
+			productReference = CE2E087B2E7ED87D00B9FDEE /* Memoriz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2E08892E7ED87E00B9FDEE /* MemorizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2E08A12E7ED87E00B9FDEE /* Build configuration list for PBXNativeTarget "MemorizTests" */;
+			buildPhases = (
+				CE2E08862E7ED87E00B9FDEE /* Sources */,
+				CE2E08872E7ED87E00B9FDEE /* Frameworks */,
+				CE2E08882E7ED87E00B9FDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2E088C2E7ED87E00B9FDEE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CE2E088D2E7ED87E00B9FDEE /* MemorizTests */,
+			);
+			name = MemorizTests;
+			packageProductDependencies = (
+			);
+			productName = MemorizTests;
+			productReference = CE2E088A2E7ED87E00B9FDEE /* MemorizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE2E08932E7ED87E00B9FDEE /* MemorizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2E08A42E7ED87E00B9FDEE /* Build configuration list for PBXNativeTarget "MemorizUITests" */;
+			buildPhases = (
+				CE2E08902E7ED87E00B9FDEE /* Sources */,
+				CE2E08912E7ED87E00B9FDEE /* Frameworks */,
+				CE2E08922E7ED87E00B9FDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2E08962E7ED87E00B9FDEE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CE2E08972E7ED87E00B9FDEE /* MemorizUITests */,
+			);
+			name = MemorizUITests;
+			packageProductDependencies = (
+			);
+			productName = MemorizUITests;
+			productReference = CE2E08942E7ED87E00B9FDEE /* MemorizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2E08732E7ED87D00B9FDEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					CE2E087A2E7ED87D00B9FDEE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					CE2E08892E7ED87E00B9FDEE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = CE2E087A2E7ED87D00B9FDEE;
+					};
+					CE2E08932E7ED87E00B9FDEE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = CE2E087A2E7ED87D00B9FDEE;
+					};
+				};
+			};
+			buildConfigurationList = CE2E08762E7ED87D00B9FDEE /* Build configuration list for PBXProject "Memoriz" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2E08722E7ED87D00B9FDEE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CE2E087C2E7ED87D00B9FDEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2E087A2E7ED87D00B9FDEE /* Memoriz */,
+				CE2E08892E7ED87E00B9FDEE /* MemorizTests */,
+				CE2E08932E7ED87E00B9FDEE /* MemorizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2E08792E7ED87D00B9FDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E08882E7ED87E00B9FDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E08922E7ED87E00B9FDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2E08772E7ED87D00B9FDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E08862E7ED87E00B9FDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E08902E7ED87E00B9FDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2E088C2E7ED87E00B9FDEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2E087A2E7ED87D00B9FDEE /* Memoriz */;
+			targetProxy = CE2E088B2E7ED87E00B9FDEE /* PBXContainerItemProxy */;
+		};
+		CE2E08962E7ED87E00B9FDEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2E087A2E7ED87D00B9FDEE /* Memoriz */;
+			targetProxy = CE2E08952E7ED87E00B9FDEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE2E089C2E7ED87E00B9FDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AVH7F8VU72;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE2E089D2E7ED87E00B9FDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AVH7F8VU72;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2E089F2E7ED87E00B9FDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVH7F8VU72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suyi.Memoriz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2E08A02E7ED87E00B9FDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVH7F8VU72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suyi.Memoriz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE2E08A22E7ED87E00B9FDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVH7F8VU72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suyi.MemorizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memoriz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memoriz";
+			};
+			name = Debug;
+		};
+		CE2E08A32E7ED87E00B9FDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVH7F8VU72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suyi.MemorizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memoriz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memoriz";
+			};
+			name = Release;
+		};
+		CE2E08A52E7ED87E00B9FDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVH7F8VU72;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suyi.MemorizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memoriz;
+			};
+			name = Debug;
+		};
+		CE2E08A62E7ED87E00B9FDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVH7F8VU72;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suyi.MemorizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memoriz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2E08762E7ED87D00B9FDEE /* Build configuration list for PBXProject "Memoriz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2E089C2E7ED87E00B9FDEE /* Debug */,
+				CE2E089D2E7ED87E00B9FDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2E089E2E7ED87E00B9FDEE /* Build configuration list for PBXNativeTarget "Memoriz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2E089F2E7ED87E00B9FDEE /* Debug */,
+				CE2E08A02E7ED87E00B9FDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2E08A12E7ED87E00B9FDEE /* Build configuration list for PBXNativeTarget "MemorizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2E08A22E7ED87E00B9FDEE /* Debug */,
+				CE2E08A32E7ED87E00B9FDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2E08A42E7ED87E00B9FDEE /* Build configuration list for PBXNativeTarget "MemorizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2E08A52E7ED87E00B9FDEE /* Debug */,
+				CE2E08A62E7ED87E00B9FDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2E08732E7ED87D00B9FDEE /* Project object */;
+}
